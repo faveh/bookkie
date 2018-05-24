@@ -1,0 +1,16 @@
+{
+  "name": "bookie",
+  "version": "1.0.0",
+  "description": "A book keeping app",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-sw": "workbox generate:sw"
+  },
+  "author": "linkedin.com/in/genade",
+  "license": "ISC",
+  "devDependencies": {
+    "workbox-cli": "^3.2.0"
+  }
+}
